@@ -1,0 +1,18 @@
+# Add/replace these in your Laravel .env
+APP_NAME="Visitor Authentication"
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=visitor_auth_db
+DB_USERNAME=root
+DB_PASSWORD=
+
+# Emails (OTP, approvals). "log" writes them to storage/logs/laravel.log so you can read OTPs without SMTP.
+MAIL_MAILER=log
+# For real delivery with Mailtrap:
+# MAIL_MAILER=smtp
+# MAIL_HOST=sandbox.smtp.mailtrap.io
+# MAIL_PORT=2525
+# MAIL_USERNAME=your-username
+# MAIL_PASSWORD=your-password
+# MAIL_FROM_ADDRESS="noreply@visitor-auth.test"
