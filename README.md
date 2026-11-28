@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35512709/README.md)
 # Visitor Authentication System
 
 A Laravel web application that replaces the paper visitor register. Visitors register online, confirm their email
